@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PeliculasComponent } from './peliculas.component';
-
+import { FormsModule } from '@angular/forms';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 @NgModule({
@@ -9,7 +10,9 @@ import { PeliculasComponent } from './peliculas.component';
     PeliculasComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    AgGridModule,
   ]
 })
 export class PeliculasModule { }

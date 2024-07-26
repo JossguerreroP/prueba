@@ -3,5 +3,5 @@ export interface Pelicula {
     Idioma:string, 
     Overview:string, 
     poster_path:string
-    fecha:Date
+    fecha:string
 }
