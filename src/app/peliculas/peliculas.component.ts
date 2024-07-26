@@ -11,7 +11,10 @@ export class PeliculasComponent implements OnInit{
   rowData :Pelicula[]=[];
 
   colDefs: ColDef[] = [
-    { field: "Titulo" },
+    { field: "Titulo",
+      wrapText: true,  
+      tooltipField: 'Titulo' ,
+    },
     { field: "Idioma" },
     {
       field: "poster_path",
