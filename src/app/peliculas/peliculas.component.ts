@@ -23,7 +23,7 @@ export class PeliculasComponent implements OnInit{
         } else
         console.log('https://image.tmdb.org/t/p'+poster_path.value)
         return `<div>
-      <img src="https://image.tmdb.org/t/p/original${poster_path.value}" alt="Imagen" style="width: 150px; height: 150px;" />
+      <img src="https://image.tmdb.org/t/p/original${poster_path.value}" alt="Imagen" style="width:160px; height: 170px;" />
     </div>`
     }
     },
